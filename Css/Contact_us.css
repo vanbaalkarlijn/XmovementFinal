@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+/*header*/
+.logo {
+	padding: 25px 25px;
+	align-content: flex-start;
+}
+.btn-grey{
+	border-radius: 50px;
+	border: medium solid #3B3B3B;
+	align-content: flex-end;
+	margin-bottom: 60px;
+	background-color: white;
+}
+.favorites {
+	align-content: flex-end;
+}
+.shop-basket {
+	align-content: flex-end;
+}
+
+/*navigational menu*/
+nav .nav{
+	background-color: #7CC17B;
+	font-family: 'Gotu', sans-serif;
+}
+.home{
+	align-content: center
+}
+
+.btn-light {
+	padding: 20px 53px;
+	color: black;
+	font-family: 'Gotu', sans-serif;
+}
+	/* drop down button*/
+.dropdown {
+	position: relative;
+	border: hidden;
+	background-color: #7CC17B;
+}
+
+	/* Dropdown Content (Hidden) */
+.dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	width:100%;
+ 	overflow: auto;
+}
+
+	/* Links inside the dropdown */
+.dropdown-content a {
+ 	color: black;
+ 	display: block;
+}
+
+	/* Color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+	/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover {
+	background-color: #7CC17B;
+	border: hidden;
+}
+.btn-light {
+	border: none;
+	background-color: #7CC17B;
+	font-size: 18px;
+}
+
+/*content*/
+.contact{
+	font-family: 'Gotu', sans-serif;
+	align-content: center;
+	margin: 10px;
+}
+.center {
+	align-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.center {
+	align-content: center
+}
+h1 {
+	margin: 50px 50px;
+	font-family: 'Gotu', sans-serif;
+	color: #585858;
+}
+
+/*footer*/
+footer {
+	background-color: #3EA3E9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Gotu', sans-serif;
+	color: black;
+}
+.btn-blue{
+	background-color: #3EA3E9;
+	border: none;
+	font-size: 20px;
+}

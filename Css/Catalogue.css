@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+/*header*/
+.logo {
+	padding: 25px 25px;
+	align-content: flex-start;
+}
+.btn-grey{
+	border-radius: 50px;
+	border: medium solid #3B3B3B;
+	align-content: flex-end;
+	margin-bottom: 60px;
+	background-color: white;
+	font-family: 'Gotu', sans-serif;
+}
+.favorites {
+	align-content: flex-end;
+}
+.shop-basket {
+	align-content: flex-end;
+}
+
+/*navigational menu*/
+nav .nav{
+	background-color: #7CC17B;
+	font-family: 'Gotu', sans-serif;
+}
+.home{
+	align-content: center;
+	font-family: 'Gotu', sans-serif;
+}
+
+.btn-light {
+	padding: 20px 53px;
+	color: black;
+	font-family: 'Gotu', sans-serif;
+}
+	/* drop down button*/
+.dropdown {
+	position: relative;
+	border: hidden;
+	background-color: #7CC17B;
+}
+
+	/* Dropdown Content (Hidden) */
+.dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	width:100%;
+ 	overflow: auto;
+}
+
+	/* Links inside the dropdown */
+.dropdown-content a {
+ 	color: black;
+ 	display: block;
+}
+
+	/* Color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+	/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover {
+	background-color: #7CC17B;
+	border: hidden;
+}
+.btn-light {
+	border: none;
+	background-color: #7CC17B;
+	font-size: 18px;
+}
+
+/*content*/
+.picture {
+	margin: 20px 20px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.info {
+	margin: 20px 20px;
+	background-color: #D8D8D8;
+}
+
+h1 {
+	margin: 50px 50px;
+	font-family: 'Gotu', sans-serif;
+	color: #585858;
+}
+h2 {
+font-family: 'Gotu', sans-serif;
+	margin: 20px 20px;
+}
+.btn-size, .add {
+	font-family: 'Gotu', sans-serif;
+	font-size: 20px;
+	padding: 10px 10px;
+	margin: 20px 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/*filtring system*/
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  background-color: white;
+  color: #ffffff;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn-filter {
+	 border: none;
+ 	outline: none;
+ 	padding: 5px 16px;
+	width: 100px;
+ 	background-color: #ffffff;
+ 	cursor: pointer;
+	font-size: 16px
+}
+
+/* Add a light grey background on mouse-over */
+.btn-filter:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn-filter.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.link {
+	color: black;
+	text-decoration: none;
+	font-family: 'Gotu', sans-serif;
+}
+
+.size {
+ color: black;
+}
+
+/*product card*/
+.filter{
+	border: none;
+	background-color: white;
+	font-size: 18px;
+	width: 200px;
+	margin: 10px 20px;
+	text-align: left;
+	font-family: 'Gotu', sans-serif;
+
+}
+.filter-btn {
+	border: none;
+	background-color: white;
+	font-size: 18px;
+	width: 100px;
+
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+	margin: 30px 5px;
+	padding: 10px 20px;
+  text-align: center;
+  font-family: 'Gotu', sans-serif;
+}
+
+.price {
+  color: grey;
+  font-size: 18px;
+	font-family: 'Gotu', sans-serif;
+}
+
+.size {
+	color: black;
+	font-family: 'Gotu', sans-serif;
+	font-size: 16px;
+	
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+	font-family: 'Gotu', sans-serif;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.name {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Gotu', sans-serif;
+}
+
+/*footer*/
+footer {
+	background-color: #3EA3E9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Gotu', sans-serif;
+	color: black;
+}
+.btn-blue{
+	background-color: #3EA3E9;
+	border: none;
+	font-size: 20px;
+}
+

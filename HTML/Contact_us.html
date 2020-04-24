@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../Css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	    <link rel="stylesheet" href="../Css/bootstrap-grid.min.css">
+    <link href="../Css/Contact_us.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+	
+	<title>Index</title>
+</head>
+
+<body> 
+
+<!--header-->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9 logo"><a href="Home.html"><img src="../Images/Brand_Logo.png" width="344.4" height="83,06" alt=""></a></div>
+	<button type="button" class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 btn btn-grey" align="center" href="Log_in">Log in</button>
+	<div class=" col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 favorites offset-xl-0" align="center"> <a href="Favorites.html"><img src="../Images/like.png" width="45" height="45" alt=""></a></div>
+	<div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 shop-basket offset-xl-0" align="center"><a  href="Shopping_basket.html"><img src="../Images/shopping-basket.png" width="45" height="45" alt=""></a></div>
+</div>
+	</div>
+	
+<!-- navigation menu -->
+<nav>
+<div class="row">
+	<div class="dropdown col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 home" align="center">
+		<button type="button" class="btn btn-light" href="Home.html"><a href="Home.html" style="color: black">Home</a></button>
+	</div>
+	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 dropdown catalog" align="center">
+		<button type="button" class="btn btn-light"><a href="Catalogue.html" style="color: black">Catalogue</a></button>
+	  <div class="dropdown-content">
+ 		<a href="Catalogue/Catalogue_Baby.html">Baby</a>
+  		<a href="Catalogue/Catalogue_Todler.html">Toddler</a>
+ 		<a href="Catalogue/Catalogue_Child.html">Child</a>
+ 		<a href="Catalogue/Catalogue_Teenager.html">Teenager</a>
+			</div>
+	</div>
+ 	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 dropdown about-us" align="center">
+		<button class="btn btn-light"><a href="About_us.html" style="color: black">About us</a></button>
+			<div class="dropdown-content">
+			<a href="Meet_the_team.html">Meet the team</a>
+			<a href="Our_values.html">Our values</a>
+		</div>
+	  </div>
+	<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 dropdown contact-us" align="center">
+		<button type="button" class="btn btn-light"><a href="Contact_us.html" style="color: black">Contact us</a></button>
+	</div>
+	</div>
+	</nav>
+	
+<!--content -->
+	
+	<h1>Contact us</h1>
+<div class="pad-top">
+	
+	<div class="row center">
+  <form action="action_page.php">
+<div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
+    <label class=" contact" for="fname">First Name</label>
+    <input class=" contact" type="text" id="fname" name="firstname" placeholder="Your name..">
+	  </div>
+	  <div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <label class=" contact" for="lname">Last Name</label>
+    <input class="< contact" type="text" id="lname" name="lastname" placeholder="Your last name..">
+	  </div>
+	  <div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	  <label class="contact" for="email">Email</label>
+    <input class="contact" type="text" id="email" name="email" placeholder="E-mail..">
+	  </div>
+	  <div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <label class="contact" for="country">Country</label>
+    <select id="contact" name="country">
+      <option class="contact" value="netherlands">Netherlands</option>
+      <option class="contact" value="belgium">Belgium</option>
+      <option class="contact" value="germany">Germany</option>
+    </select>
+	  </div>
+	  <div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <label class="subject" for="subject">Subject</label>
+    <textarea class="subject" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	  </div>
+	  <div class="contact col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <input class="submit" type="submit" value="Submit">
+	  </div>
+		  </form>
+	</div>
+</div>
+	
+<!-- footer -->
+<footer>
+	<button type="button" class="btn btn-blue col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"><a href="FAQ.html" style="color: black">FAQ</a></button>
+	<button type="button" class="btn btn-blue col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"><a href="DesignChoices.html" style="color: black">Design choices</a></button>
+	</footer>
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first (Popper included), then Bootstrap JS -->
+<script src="../Js/jquery-3.4.1.slim.min.js"></script>
+<script scr="../Js/popper.min.js"></script>
+<script src="../Js/bootstrap.bundle.min.js"></script>
+	</body>
+</html> 

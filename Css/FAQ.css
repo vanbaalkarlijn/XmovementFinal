@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+/*header*/
+.logo {
+	padding: 25px 25px;
+	align-content: flex-start;
+}
+.btn-grey{
+	border-radius: 50px;
+	border: medium solid #3B3B3B;
+	align-content: flex-end;
+	margin-bottom: 60px;
+	background-color: white;
+}
+.favorites {
+	align-content: flex-end;
+}
+.shop-basket {
+	align-content: flex-end;
+}
+
+/*navigational menu*/
+nav .nav{
+	background-color: #7CC17B;
+	font-family: 'Gotu', sans-serif;
+}
+.home{
+	align-content: center
+}
+
+.btn-light {
+	padding: 20px 53px;
+	color: black;
+	font-family: 'Gotu', sans-serif;
+}
+	/* drop down button*/
+.dropdown {
+	position: relative;
+	border: hidden;
+	background-color: #7CC17B;
+}
+
+	/* Dropdown Content (Hidden) */
+.dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	width:100%;
+ 	overflow: auto;
+}
+
+	/* Links inside the dropdown */
+.dropdown-content a {
+ 	color: black;
+ 	display: block;
+}
+
+	/* Color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+	/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover {
+	background-color: #7CC17B;
+	border: hidden;
+}
+.btn-light {
+	border: none;
+	background-color: #7CC17B;
+	font-size: 18px;
+}
+
+/*content*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+ 	background-color: #eee;
+ 	color: #444;
+ 	cursor: pointer;
+	padding: 18px;
+	width: 500px;
+	border: none;
+ 	text-align: left;
+ 	outline: none;
+ 	font-size: 15px;
+	marggin: 50px 50px;
+	font-family: 'Gotu', sans-serif;
+	
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+ 	background-color: #f1f1f1;
+	font-family: 'Gotu', sans-serif;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+h1 {
+	margin: 50px 50px;
+	font-family: 'Gotu', sans-serif;
+	color: #585858;
+}
+
+
+p {
+	font-family: 'Gotu', sans-serif;
+	background-color: #E691B6;
+	padding: 20px 20px;
+}
+
+/*footer*/
+footer {
+	background-color: #3EA3E9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Gotu', sans-serif;
+	color: black;
+}
+.btn-blue{
+	background-color: #3EA3E9;
+	border: none;
+	font-size: 20px;
+}
