@@ -88,10 +88,25 @@ h1 {
 	font-family: 'Gotu', sans-serif;
 	color: #585858;
 }
-p {
-	background-color: #F2E58E;
+.about_us {
+	background-color: #3EA3E9;
+	padding: 10px 5px;
 	font-family: 'Gotu', sans-serif;
-	padding: 20px 20px;
+}
+.our_vision {
+	background-color: #F2E58E;
+	padding: 10px 5px;
+	font-family: 'Gotu', sans-serif;
+}
+.our_mission {
+	background-color: #E873A5;
+	padding: 10px 5px;
+	font-family: 'Gotu', sans-serif;
+}
+.our_values, ul, il {
+	background-color: #7CC17B;
+	padding: 10px 5px;
+	font-family: 'Gotu', sans-serif;
 }
 
 /*footer*/
