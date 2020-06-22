@@ -90,6 +90,9 @@ p {
 	font-family: 'Gotu', sans-serif;
 	background-color: white;
 }
+img {
+	align-content: center;
+}
 
 /*footer*/
 footer {
