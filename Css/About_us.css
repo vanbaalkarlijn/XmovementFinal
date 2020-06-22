@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+  background-image: url("../Images/website background.jpg");
+  background-repeat: repeat-y;
+}
 /*header*/
 .logo {
 	padding: 25px 25px;
